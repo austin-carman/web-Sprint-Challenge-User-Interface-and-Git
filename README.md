@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+semantic HTML elements define what it does in the element name. Examples would be header, section, nav, footer - you can tell what each of these are used for just in the name. Examples of non-semantic HTML would be div and span. We should always use semantic html as much as possible because it's more meaningful.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+'display: block' will take up the entire available width/take up it's own line and have a line break  whereas 'display: inline' will only take the width it needs/won't take up it's own line.
+Another difference is that you can change the width of a block element but you cannot change the width for an inline element.
 
 3. What are the 4 areas of the box model?
 
+Margin, border, padding, content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+for the cross axis. for row/row-reverse that will be the vertical axis, for column/colomn-reverse that will be the horizontal axis
+
 5. Explain why git is valuable to a team of developers.
+
+git is valuable because you can save many edits and go back to old code if needed. Also, many developers can be working on a single project simultaneously by branching the project and making there own edits without affecting other people's work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -89,7 +100,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ x] Copy and paste your home page navigation and header into the about page
 * [ x] Update the header image with the about page image
 * [ x] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [ x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -99,6 +110,6 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [ x] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
+* [ x] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [ X] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
