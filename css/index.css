@@ -57,19 +57,24 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%; 
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 2.2rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-size: 1.8rem;
+
+
 }
 a {
     text-decoration: none;
+    font-size: 1.6rem;
 }
 
 /* header */
@@ -148,7 +153,6 @@ header nav {
     align-items: center;
     justify-content: center;
 }
-/* ???????? is there a way to do this w/o using id?  ????????????*/
 .box1{
     background-color: teal;
 }
@@ -230,9 +234,10 @@ footer nav a {
 /* top text content */
 .about-top-content {
     text-align: left;
-    padding-bottom: 2%;     
-    margin-left: 3%;
+    padding: 0 2% 2%;     
+    /* margin-left: 3%; */
     border-bottom: 1px dashed black; 
+    width: 100%;
 
     
 }
@@ -247,15 +252,16 @@ footer nav a {
 
 }
 .content-container {
-    width: 50%;
+    width: 45%;
     margin: 3% 0 3% 0;
     display: flex;
     flex-direction: column;
     padding-bottom: 1%;
     border-bottom: 1px dashed black;
+    /* border: 1px solid red; */
 }
 .img-container {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
 }
 .img-container img {
@@ -263,8 +269,8 @@ footer nav a {
 }
 .txt-container {
     padding-top: 3%;
-    width:85%;
-    margin: 0 auto;
+    width:95%;
+    /* margin: 0 auto; */
 
 }
 .txt-container h3 {
@@ -274,4 +280,18 @@ footer nav a {
     text-align: center;
     margin-top: 3%;
     border-radius: 10px;
+}
+
+
+/* bottom section */
+.bottom-container {
+    margin: 0 7% 4%;
+}
+
+
+
+/* footer */
+footer {
+    margin: 0 auto;
+    width: 88%;
 }
