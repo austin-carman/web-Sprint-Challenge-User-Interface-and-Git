@@ -149,34 +149,34 @@ header nav {
     justify-content: center;
 }
 /* ???????? is there a way to do this w/o using id?  ????????????*/
-#box1{
+.box1{
     background-color: teal;
 }
-#box2{
+.box2{
     background-color: gold;
 }
-#box3{
+.box3{
     background-color: cadetblue;
 }
-#box4{
+.box4{
     background-color: coral;
 }
-#box5{
+.box5{
     background-color: crimson;
 }
-#box6{
+.box6{
     background-color: forestgreen;
 }
-#box7{
+.box7{
     background-color: darkorchid;
 }
-#box8{
+.box8{
     background-color: hotpink;
 }
-#box9{
+.box9{
     background-color: indigo;
 }
-#box10{
+.box10{
     background-color: dodgerblue;
 }
 
@@ -212,4 +212,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/* ====================== ABOUT PAGE CSS ======================= */
+
+
+.about-image-banner {
+    background-image: url('/img/jumbo-about.png');
 }
