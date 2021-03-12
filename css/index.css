@@ -51,7 +51,7 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html, body {
@@ -68,19 +68,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+a {
+    text-decoration: none;
+}
 
 /* header */
+        /* header navigation */
 header {
     display: flex;
-    justify-content: space-around;
-    margin: 1% 5%;
+    flex-direction: column;
 }
 header nav {
     display: flex;
     justify-content: space-around;
-    width:70%;
+    margin: 2% 5%;
 }
-
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: flex-end;
+}
+.links a {
+    color: black;
+}
+.imageContainer {
+    background-image: url('/img/jumbo.jpg'); /*why is this the format for pulling the file*/
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 6% 3%;
+}
 
 
 /* first text section */
