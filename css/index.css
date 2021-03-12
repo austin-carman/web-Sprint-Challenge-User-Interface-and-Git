@@ -219,7 +219,59 @@ footer nav a {
 
 /* ====================== ABOUT PAGE CSS ======================= */
 
-
+* {
+    /* border: 1px solid grey; */
+}
+/* Heading banner */
 .about-image-banner {
     background-image: url('/img/jumbo-about.png');
+}
+
+/* top text content */
+.about-top-content {
+    text-align: left;
+    padding-bottom: 2%;     
+    margin-left: 3%;
+    border-bottom: 1px dashed black; 
+
+    
+}
+
+/* picture section */
+.middle-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; 
+    margin: 0 3%;
+    
+
+}
+.content-container {
+    width: 50%;
+    margin: 3% 0 3% 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+    border-bottom: 1px dashed black;
+}
+.img-container {
+    width: 85%;
+    margin: 0 auto;
+}
+.img-container img {
+    width: 100%;
+}
+.txt-container {
+    padding-top: 3%;
+    width:85%;
+    margin: 0 auto;
+
+}
+.txt-container h3 {
+    border: 2px solid black;
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 10px;
 }
